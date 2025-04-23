@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   portafolio - Gerardo Vazquez (GLACK)
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  
+<script src="https://cdn.jsdelivr.net/npm/three@0.138.0/build/three.min.js">
+
+  
+</script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/three@0.138.0/examples/js/loaders/GLTFLoader.js">
+
+  
+</script>
+
+ </head>
+ <body>
+  
+<header class="sticky-header">
+
+   <h1 class="hero-title">
+    <img alt="Logo Glack" class="logo-inline" src="logo.png"/>
+    Glack
+   </h1>
+   <button class="menu-toggle" id="menu-toggle">
+    ☰
+   </button>
+   
+<nav class="navbar" id="navbar">
+
+    <ul>
+     <li>
+      <a href="#inicio">
+       Inicio
+      </a>
+     </li>
+     <li>
+      <a href="#sobre-mi">
+       Sobre mí
+      </a>
+     </li>
+     <li>
+      <a href="#skills">
+       Conocimientos
+      </a>
+     </li>
+     <li>
+      <a href="#proyectos">
+       Proyectos
+      </a>
+     </li>
+     <li>
+      <a href="#certificaciones">
+       Certificaciones
+      </a>
+     </li>
+     <li>
+      <a href="#experiencia">
+       Emprendimiento
+      </a>
+     </li>
+     <li>
+      <a href="#contacto">
+       Contacto
+      </a>
+     </li>
+    </ul>
+   
+</nav>
+
+  
+</header>
+
+  <div id="threejs-container">
+  </div>
+  
+<section id="inicio">
+
+   
+<header class="hero">
+
+    <div class="hero-content">
+     <img alt="Foto de [Tu Nombre]" class="hero-photo" src="yo.jpg"/>
+     <div class="hero-text">
+      <h1 class="hero-title">
+       ¡Hola! Soy Gerardo Vazquez
+      </h1>
+      <p class="hero-subtitle">
+       Me apasiona la tecnología y el arte. Disfruto aprender, compartir lo que sé y unir ambos mundos para crear cosas únicas.
+      </p>
+     </div>
+    </div>
+   
+</header>
+
+  
+</section>
+
+  
+<section class="section fade-in" id="sobre-mi">
+
+   <div class="container">
+    <h2 class="section-title">
+     Sobre mí
+    </h2>
+    <div class="about-content">
+     <img alt="Mi logo personal" class="logo-sobremi" src="logo.png"/>
+     <div class="about-text">
+      <p>
+       ¡Hola! Soy gera un joven recién egresado de la Facultad de Informática de la UAQ en Ingeniería en Computación.
+        Me apasiona el arte y la tecnología, y disfruto combinarlos en proyectos creativos.
+      </p>
+      <p>
+       Tengo conocimientos en mantenimiento de equipos, edición de video y diseño gráfico, así como experiencia con tecnologías como Arduino, HTML y CMS como Joomla.
+      </p>
+      <p>
+       Me considero una persona con ideas frescas, con la capacidad de crear soluciones visuales agradables que mezclan lo técnico y lo artístico para renovar lo tradicional.
+      </p>
+     </div>
+    </div>
+   </div>
+  
+</section>
+
+  
+<section class="section" id="skills">
+
+   <h2 class="section-title">
+    Conocimientos y Herramientas
+   </h2>
+   <p class="section-description">
+    Algunas herramientas y tecnologías que manejo:
+   </p>
+   <div class="skills-container">
+    <div class="skill">
+     HTML &amp; CSS
+    </div>
+    <div class="skill">
+     Arduino IDE
+    </div>
+    <div class="skill">
+     Joomla / Bluehost
+    </div>
+    <div class="skill">
+     Mantenimiento de equipos
+    </div>
+    <div class="skill">
+     Filmora
+    </div>
+    <div class="skill">
+     Photoshop / Illustrator
+    </div>
+    <div class="skill">
+     lightroom
+    </div>
+    <div class="skill">
+     Corel Draw
+    </div>
+    <div class="skill">
+     Audacity
+    </div>
+    <div class="skill">
+     Canva
+    </div>
+    <div class="skill">
+     Word / Excel / PowerPoint
+    </div>
+    <div class="skill">
+     Edición de video y fotografía
+    </div>
+   </div>
+  
+</section>
+
+  
+<section class="section fade-in" id="habilidades-blandas">
+
+   <h2 class="section-title">
+    Habilidades Blandas
+   </h2>
+   <p class="section-description">
+    A lo largo de mi formación y experiencia, he desarrollado diversas habilidades personales e interpersonales que fortalecen mi forma de trabajar y comunicarme.
+   </p>
+   <div class="soft-skill-group">
+    <h3 class="soft-skill-heading">
+     Habilidades personales
+    </h3>
+    <div class="soft-skills-container">
+     <div class="soft-skill">
+      Organización
+     </div>
+     <div class="soft-skill">
+      Responsabilidad
+     </div>
+     <div class="soft-skill">
+      Gestión del tiempo
+     </div>
+     <div class="soft-skill">
+      Pensamiento crítico
+     </div>
+    </div>
+   </div>
+   <div class="soft-skill-group">
+    <h3 class="soft-skill-heading">
+     Habilidades interpersonales
+    </h3>
+    <div class="soft-skills-container">
+     <div class="soft-skill">
+      Comunicación asertiva
+     </div>
+     <div class="soft-skill">
+      Empatía
+     </div>
+     <div class="soft-skill">
+      Trabajo en equipo
+     </div>
+     <div class="soft-skill">
+      Influencia positiva
+     </div>
+    </div>
+   </div>
+   <div class="soft-skill-group">
+    <h3 class="soft-skill-heading">
+     Creatividad e innovación
+    </h3>
+    <div class="soft-skills-container">
+     <div class="soft-skill">
+      Pensamiento creativo
+     </div>
+     <div class="soft-skill">
+      Curiosidad
+     </div>
+     <div class="soft-skill">
+      Capacidad de síntesis
+     </div>
+     <div class="soft-skill">
+      Innovación en procesos
+     </div>
+    </div>
+   </div>
+   <div class="soft-skill-group">
+    <h3 class="soft-skill-heading">
+     Resolución de problemas
+    </h3>
+    <div class="soft-skills-container">
+     <div class="soft-skill">
+      Pensamiento analítico
+     </div>
+     <div class="soft-skill">
+      Toma de decisiones
+     </div>
+     <div class="soft-skill">
+      Orientación a resultados
+     </div>
+    </div>
+   </div>
+  
+</section>
+
+  
+<section class="section fade-in" id="proyectos">
+
+   <h2 class="section-title">
+    Proyectos Destacados
+   </h2>
+   <div class="container">
+    <div class="project">
+     <h3>
+      Proyectos de Video Creativo
+     </h3>
+     <p>
+      Trabajo audiovisual donde me encargué de la edición, redacción del guion, parte de la grabación y aportación de ideas creativas.
+     </p>
+     <div class="video-container">
+      <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/n36HeLma-Yg">
+      </iframe>
+     </div>
+    </div>
+    <div class="project">
+     <h3>
+      Investigación sobre el TID
+     </h3>
+     <p>
+      Trabajo académico centrado en el Trastorno de Identidad Disociativo, donde investigué, redacté y estructuré el análisis completo.
+     </p>
+     <a class="btn-doc" href="Documentos\TID investigacion_Gerardo Edgar Vazquez Morales.pdf" target="_blank">
+      Ver Documento PDF
+     </a>
+    </div>
+    <div class="project">
+     <h3>
+      Bote de Basura Inteligente con ESP32
+     </h3>
+     <p>
+      Prototipo que detecta personas para abrir su tapa, mide nivel de llenado y envía esa info a una web. Codificación y parte del ensamblaje por mí.
+     </p>
+     <div class="resource-links">
+      <a class="btn-doc" href="Documentos\inscripcion-bote.pdf" target="_blank">
+       📄 Ver Documento de Inscripción
+      </a>
+     </div>
+     <div class="gallery">
+      <img alt="Bote inteligente 1" class="gallery-img" src="img/bote (1).jpg"/>
+      <img alt="Bote inteligente 2" class="gallery-img" src="img/bote (2).jpg"/>
+      <img alt="Bote inteligente 3" class="gallery-img" src="img/bote (3).jpg"/>
+      <img alt="Bote inteligente 4" class="gallery-img" src="img/bote (4).jpg"/>
+      <img alt="Bote inteligente 5" class="gallery-img" src="img/bote (5).jpg"/>
+      <img alt="Bote inteligente 5" class="gallery-img" src="img/bote (6).jpg"/>
+      <img alt="Bote inteligente 5" class="gallery-img" src="img/bote (7).jpg"/>
+     </div>
+    </div>
+    <div class="project">
+     <h3>
+      Carrito Seguidor de Línea
+     </h3>
+     <p>
+      Proyecto en Arduino1 donde colaboré en el código y ensamblaje del carrito que sigue una línea automáticamente.
+     </p>
+     <h4 style="margin-top: 20px; color: #b58eff;">
+      Primer prototipo
+     </h4>
+     <div class="gallery">
+      <img alt="Prototipo 1 - Vista 1" class="gallery-img" src="img/carrito (1).jpg"/>
+      <img alt="Prototipo 1 - Vista 2" class="gallery-img" src="img/carrito (2).jpg"/>
+     </div>
+     <h4 style="margin-top: 20px; color: #b58eff;">
+      Prototipo final
+     </h4>
+     <div class="gallery">
+      <img alt="Prototipo final 1" class="gallery-img" src="img/carrito (3).jpg"/>
+      <img alt="Prototipo final 2" class="gallery-img" src="img/carrito (4).jpg"/>
+      <img alt="Prototipo final 3" class="gallery-img" src="img/carrito (5).jpg"/>
+      <img alt="Prototipo final 4" class="gallery-img" src="img/carrito (6).jpg"/>
+      <img alt="Prototipo final 5" class="gallery-img" src="img/carrito (7).jpg"/>
+      <img alt="Prototipo final 6" class="gallery-img" src="img/carrito (8).jpg"/>
+      <img alt="Prototipo final 7" class="gallery-img" src="img/carrito (9).jpg"/>
+     </div>
+    </div>
+   </div>
+  
+</section>
+
+<div class="modal" id="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-img"/>
+  <div class="modal-nav">
+    <span class="nav-arrow" id="prev">&#10094;</span>
+    <span class="nav-arrow" id="next">&#10095;</span>
+  </div>
+</div>
+
+  
+<section class="section fade-in" id="fotografia">
+
+   <h2 class="section-title">
+    Portafolio Fotográfico
+   </h2>
+   <p class="section-description">
+    Una muestra de mi trabajo en fotografía, enfocándome en composición, color y narrativa visual.
+   </p>
+   <div class="gallery">
+    <img alt="Foto 1" class="gallery-img" src="Fotos/foto (1).png"/>
+    <img alt="Foto 2" class="gallery-img" src="Fotos/foto (2).png"/>
+    <img alt="Foto 3" class="gallery-img" src="Fotos/foto (3).png"/>
+    <img alt="Foto 4" class="gallery-img" src="Fotos/foto (4).png"/>
+    <img alt="Foto 5" class="gallery-img" src="Fotos/foto (5).png"/>
+    <img alt="Foto 6" class="gallery-img" src="Fotos/foto (6).png"/>
+    <img alt="Foto 7" class="gallery-img" src="Fotos/foto (7).png"/>
+    <img alt="Foto 8" class="gallery-img" src="Fotos/foto (8).png"/>
+    <img alt="Foto 9" class="gallery-img" src="Fotos/foto (9).png"/>
+    <img alt="Foto 10" class="gallery-img" src="Fotos/foto (10).png"/>
+    <img alt="Foto 11" class="gallery-img" src="Fotos/foto (11).png"/>
+    <img alt="Foto 12" class="gallery-img" src="Fotos/foto (12).png"/>
+   </div>
+   <a class="btn-doc" href="Documentos/portafolio-fotografico.pdf" target="_blank">
+    Ver Portafolio en PDF
+   </a>
+  
+</section>
+
+  
+<section class="section" id="certificaciones">
+
+   <h2 class="section-title">
+    Certificaciones
+   </h2>
+   <p class="section-description">
+    Algunas de las certificaciones que he obtenido durante mi formación:
+   </p>
+   <div class="cert-grid">
+    <div class="cert-card">
+     <h3>
+      📸 Fotografía Creativa
+     </h3>
+     <p>
+      Aplicada a redes sociales. Emitida por mi facultad.
+     </p>
+     <a class="cert-btn" href="certificaciones/certificacion-fotografia.pdf" target="_blank">
+      Ver Certificado
+     </a>
+    </div>
+    <div class="cert-card">
+     <h3>
+      🧰 Mantenimiento de Equipos
+     </h3>
+     <p>
+      Diagnóstico, reparación y limpieza de computadoras. Certificado institucional.
+     </p>
+     <a class="cert-btn" href="certificaciones/certificacion-mantenimiento.pdf" target="_blank">
+      Ver Certificado
+     </a>
+    </div>
+    <div class="cert-card">
+     <h3>
+      💻 Desarrollo Web Básico
+     </h3>
+     <p>
+      Fundamentos de HTML, CSS y sitios web. Emitido por la facultad.
+     </p>
+     <a class="cert-btn" href="certificaciones/ceritficacion-web.pdf" target="_blank">
+      Ver Certificado
+     </a>
+    </div>
+    <div class="cert-card">
+     <h3>
+      📊 Excel
+     </h3>
+     <p>
+      Certificación Testing Program de Competencias Profesionales en Microsoft Excel.
+     </p>
+     <a class="cert-btn" href="certificaciones/certificacion-excel.pdf" target="_blank">
+      Ver Certificado
+     </a>
+    </div>
+    <div class="cert-card">
+     <h3>
+      📽️ PowerPoint
+     </h3>
+     <p>
+      Certificación Testing Program de Competencias Profesionales en Microsoft PowerPoint.
+     </p>
+     <a class="cert-btn" href="certificaciones/certificacion-powerpoint.pdf" target="_blank">
+      Ver Certificado
+     </a>
+    </div>
+   </div>
+  
+</section>
+
+  
+<section class="section" id="experiencia">
+
+   <h2 class="section-title">
+    Experiencia
+   </h2>
+   <p class="section-description">
+    Estos son algunos espacios donde he aplicado mis conocimientos de forma práctica:
+   </p>
+   <div class="exp-grid">
+    <div class="exp-card">
+     <h3>
+      👨‍💻 Prácticas Profesionales
+     </h3>
+     <p>
+      <strong>
+       Facultad de Informática
+      </strong>
+      — Encargado del sitio web
+      <strong>
+       SUPAUAQ
+      </strong>
+      , donde trabajé con
+      <strong>
+       Joomla
+      </strong>
+      y
+      <strong>
+       Bluehost
+      </strong>
+      en tareas como creación y recuperación de correos institucionales, modificación del sitio (actualización de versión y ajustes visuales), generación de copias de seguridad, gestión de permisos (creación, modificación y eliminación de accesos), y reemplazo de documentos por contenido audiovisual. También participé en la configuración de accesos
+      <strong>
+       FTP
+      </strong>
+      y en la administración general de usuarios y contenidos.
+     </p>
+    </div>
+    <div class="exp-card">
+     <h3>
+      🎨 Emprendimiento de Sublimación
+     </h3>
+     <p>
+      Proyecto personal donde diseño prendas, realizo edición de imágenes y video, fotografía para redes sociales y promoción de productos físicos.
+     </p>
+     <a class="cert-btn" href="https://sites.google.com/view/glackms" style="margin-top: 10px;" target="_blank">
+      Visitar página
+     </a>
+     <div class="card-flip-container">
+      <div class="card-flip-inner">
+       <div class="card-flip-front">
+        <img alt="Tarjeta de presentación - Frente" src="img/tarjeta-front.png"/>
+       </div>
+       <div class="card-flip-back">
+        <img alt="Tarjeta de presentación - Reverso" src="img/tarjeta-back.png"/>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  
+</section>
+
+  
+<section class="section" id="arte-tecnologia">
+
+   <h2 class="section-title">
+    Arte y Tecnología
+   </h2>
+   <p class="section-description">
+    Creo que el arte y la tecnología no están en conflicto; por el contrario, juntos pueden abrir nuevas formas de enseñar, comunicar y crear. A lo largo de mi formación, he explorado cómo estas dos disciplinas pueden integrarse de manera práctica y creativa.
+    <br/>
+    <br/>
+    Cuento con experiencia en edición de video, diseño gráfico, fotografía, creación de contenido para redes sociales y desarrollo de proyectos con microcontroladores como Arduino y ESP32. Esta combinación de habilidades me permite proponer soluciones visuales atractivas, especialmente en contextos educativos, tecnológicos o de comunicación.
+    <br/>
+    <br/>
+    Mi propósito es seguir uniendo estas áreas para aportar ideas frescas, funcionales y visualmente agradables, ya sea desde un aula, una organización o cualquier espacio creativo.
+   </p>
+  
+</section>
+
+  
+<section class="section" id="contacto">
+
+   <h2 class="section-title">
+    Contacto
+   </h2>
+   <div class="contact-grid">
+    <div class="contact-column">
+     <p class="form-intro">
+      ¿Te gustaría trabajar conmigo o tienes alguna duda? ¡Escríbeme!
+     </p>
+     <form action="mailto:gera_och8@hotmail.com" class="contact-form" enctype="text/plain" method="POST">
+      <input name="nombre" placeholder="Tu nombre" required="" type="text"/>
+      <input name="email" placeholder="Tu correo" required="" type="email"/>
+      <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." required=""></textarea>
+      <button type="submit">
+       Enviar mensaje
+      </button>
+     </form>
+    </div>
+    <div class="contact-column">
+     <p class="form-intro">
+      También puedes visitarme en LinkedIn:
+     </p>
+     <a class="linkedin-btn" href="https://www.linkedin.com/in/gera-vazquez" target="_blank">
+      🔗 Ver perfil en LinkedIn
+     </a>
+    </div>
+   </div>
+  
+</section>
+
+  
+<footer>
+
+   <p>
+    © 2025 Gerardo Edgar Vázquez Morales - Todos los derechos reservados.
+   </p>
+  
+</footer>
+
+  
+<script src="script-3d.js">
+
+  
+</script>
+
+  
+<script src="script.js">
+
+  
+</script>
+
+  
+<script>
+
+   document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  
+</script>
+
+ </body>
+</html>
